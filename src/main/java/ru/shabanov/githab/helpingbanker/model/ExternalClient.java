@@ -10,4 +10,3 @@ public record ExternalClient(Long id, String clientFirstName, String clientLastN
         Objects.requireNonNull(clientLastName);
     }
 }
-//  @JsonProperty("clientLastName")

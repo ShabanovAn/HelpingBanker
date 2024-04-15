@@ -26,5 +26,4 @@ public class ClientController {
         InternalClient client = clientService.getClient(id);
         return ResponseEntity.ok(client);
     }
-
 }

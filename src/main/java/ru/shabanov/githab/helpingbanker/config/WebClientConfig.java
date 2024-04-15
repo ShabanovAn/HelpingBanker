@@ -26,5 +26,4 @@ public class WebClientConfig {
     public ClientMapper clientMapper() {
         return Mappers.getMapper(ClientMapper.class);
     }
-
 }

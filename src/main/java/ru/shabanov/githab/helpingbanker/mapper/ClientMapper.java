@@ -14,5 +14,4 @@ public interface ClientMapper {
             @Mapping(target = "fullName", expression = "java(externalClient.clientFirstName()+ ' ' + externalClient.clientLastName())")
     })
     InternalClient toInternal(ExternalClient externalClient);
-
 }

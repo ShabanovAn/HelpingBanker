@@ -8,8 +8,4 @@ public record InternalClient(Long id, String fullName) {
         Objects.requireNonNull(id);
         Objects.requireNonNull(fullName);
     }
-
-
-
-
 }
